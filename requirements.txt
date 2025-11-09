@@ -1,16 +1,16 @@
-Pillow==8.4.0
-numpy==1.19.5
-tqdm
-torchpack
-mmcv==1.4.0
-mmcv-full==1.4.0
-mmdet==2.20.0
-nuscenes-devkit
-mpi4py==3.0.3
-numba==0.48.0
-git+https://github.com/DanielPollithy/pypcd.git
-git+https://github.com/facebookresearch/pytorch3d.git@stable
-optuna==3.3.0
-pandas==1.3.4
-plotly==5.17.0
-kaleido==0.2.1
+Pillow==8.4.0       # 图像处理库，是Python Imaging Library (PIL) 的分支。常用于图像打开、处理和保存。
+numpy==1.19.5       # 科学计算库，提供多维数组和矩阵运算。
+tqdm                # 进度条库，用于显示循环的进度。
+torchpack           # 用于PyTorch的轻量级训练工具包，提供训练循环、分布式训练等功能。
+mmcv==1.4.0         # OpenMMLab的计算机视觉基础库，提供视频和图像处理的基础功能。
+mmcv-full==1.4.0    # mmcv的完整版本，包含所有功能和CUDA支持。
+mmdet==2.20.0       # OpenMMLab的目标检测工具箱和基准。
+nuscenes-devkit     # NuScenes数据集的开发工具包，用于加载和可视化NuScenes数据集。
+mpi4py==3.0.3       # MPI（消息传递接口）的Python绑定，用于并行计算。
+numba==0.48.0       # JIT编译器，将Python代码编译为机器码，用于加速数值计算。
+git+https://github.com/DanielPollithy/pypcd.git                         # 用于读取和写入PCD（点云数据）文件的库。
+git+https://github.com/facebookresearch/pytorch3d.git@stable            # PyTorch3D库，提供3D深度学习的函数和可微渲染器。
+optuna==3.3.0       # 超参数优化框架。
+pandas==1.3.4       # 数据分析和操作库。
+plotly==5.17.0      # 交互式图表绘制库。
+kaleido==0.2.1      # 用于静态图像导出的跨平台库，通常与plotly配合使用。
